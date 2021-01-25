@@ -1,0 +1,9 @@
+.wrapper { width: 43%; display: inline-block;}
+
+.wrapper > img { width: 100%;}
+
+/*#black-bg:hover { fill:  blue !important; }*/
+
+#red-text { cursor: pointer; }
+
+#red-text:hover { fill:  blue !important; }
