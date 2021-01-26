@@ -1,8 +1,265 @@
-.wrapper { width: 43%; display: inline-block;}
+@charset "UTF-8";
 
-.wrapper > img { width: 100%;}
 
-/*#black-bg:hover { fill:  blue !important; }*/
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+
+
+body 
+{
+	font-family: "Avenir", "roboto", sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+p
+{
+	font-family:"avenir", sans-serif;
+	font-size: 12px;
+	color: #666666;
+	letter-spacing: 1px;
+}
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none; 	
+}
+
+a:hover, a:active 
+{ 
+	text-decoration:none; 
+}
+
+
+.hidden
+{
+	display: none;
+}
+
+
+#topBar
+{
+	background-color: #3377a0;
+	height: 20px;
+}
+
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 960px;	
+}
+
+#mainHeader
+{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+#logo
+{
+	width: 200px;
+	height: 150px;
+}
+
+
+
+#mainNav
+{
+	width: 500px;
+	height: 100px;
+	margin-top: 45px;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#mainNav ul li
+{
+	font-size: 18px;
+	display: inline;
+	margin-left: 25px;
+}
+
+#mainNav ul li a
+{
+	color: #000;
+	padding: 5px;
+}
+
+#mainNav ul li a:hover
+{
+	background-color: #dfd9d1;
+}
+
+.selected
+{
+	padding: 5px 0px 5px 0px;
+	background-color: #2982b6;
+}
+
+#mainFooter 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+  	background-color: #3377a0;
+}
+
+#footerNav 
+{
+	width: 500px;
+	height: 100px;
+	margin-top: 45px;
+	margin-left: auto;
+}
+
+#footerNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#footerNav ul li
+{
+	font-size: 18px;
+	display: inline;
+	margin-left: 25px;
+}
+
+#footerNav ul li a
+{
+	color: #000;
+	padding: 5px;
+}
+
+#footerNav ul li a:hover
+{
+	background-color: #b0a192;
+}
+
+#copyRight 
+{
+	margin-top: 20px;
+	margin-left: auto;
+	width: 310px;
+	height: 100px;
+	text-align: center;
+	line-height: 50px;
+}
+
+#copyRight p
+{
+	color: #000;
+	line-height: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+#copyRight span
+{
+	font-family: cursive;
+}
+
+
+
+.welcome
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;	
+}
+
+.welcome h2
+{
+	text-align: center;
+	font-size: 24px;
+}
+.welcome p
+{
+	text-align: center;
+	font-size: 20px;
+	color: #666666;
+	/*margin-top: 50px;*/
+	font-family: "open sans";
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+
+.icon-holder
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+/*	margin-top: 30px;
+*/	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 800px;
+}
+
+
+
+.wrapper
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.wrapper3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.sonoIcon
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+}
+
+.sonoIcon p
+{
+	text-align: center;
+}
+
 
 #red-text { cursor: pointer; }
 

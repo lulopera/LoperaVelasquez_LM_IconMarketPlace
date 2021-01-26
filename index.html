@@ -7,17 +7,114 @@
 
 <link rel="stylesheet" href="css/main.css">
 
-  <title>Working with SVG vs Raster Images</title>
+  <title>Health Icon Site</title>
 </head>
+
 <body>
-  <h1 class="hidden">My Awesome Icon Marketplace</h1>
+
+  <div id="topBar"></div><!--end topBar-->
+     <div id="siteContainer">
+        <h1 class="hidden">Health Icon Site</h1>
+
+    <header id="mainHeader">
+            <img src="images/IconHealth-logo.svg" width="200" height="150" alt="Icon Health logo">
+
+            <nav id="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <div>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about-us.html">ABOUT US</a></li>
+                   <li class="selected"><a href="shop.html">ICON SETS</a></li>
+                   <li><a href="contact-us.html">CONTACT</a></li>
+                </ul>
+                 </div>          
+             </nav>      
+        </header>
+
+  <section class="welcome">
+    <h2>Human Body</h2>   
+     <p>Icon set for different parts of the human body</p>
+  </section>
+
 
   <section class="icon-holder">
 
     <!-- SVG icons here -->
     <div class="wrapper">
-    <img  src="images/badge.svg" alt="raster image">
-  </div>
+       <h2 class="hidden">Ultrasound Icons</h2>
+
+            <section class="sonoIcon">
+                <h3 class="hidden">Heart</h3>
+                <img src="images/ultrasound-heart.svg" width="150" height="150" alt="Heart">
+                <p>HEART</p>
+             </section>
+
+             <section class="sonoIcon">
+                <h3 class="hidden">Lungs</h3>
+                <img src="images/ultrasound-lungs.svg" width="150" height="150" alt="Lungs">
+                <p>LUNGS</p>
+             </section>
+
+             <section class="sonoIcon">
+                <h3 class="hidden">Brain</h3>
+                <img src="images/ultrasound-brain.svg" width="150" height="150" alt="Brain">
+                <p>BRAIN</p>
+             </section>
+
+              <section class="sonoIcon">
+                <h3 class="hidden">Eyes</h3>
+                <img src="images/ultrasound-eye.svg" width="150" height="150" alt="Eyes">
+                <p>EYE</p>
+             </section>
+     </div>
+
+    <div class="wrapper">
+       <h2 class="hidden">Ultrasound Icons</h2>
+
+            <section class="sonoIcon">
+                <h3 class="hidden">Neuron</h3>
+                <img src="images/ultrasound-neuron.svg" width="150" height="150" alt="Neuron">
+                <p>Neuron</p>
+             </section>
+
+             <section class="sonoIcon">
+                <h3 class="hidden">Bone</h3>
+                <img src="images/ultrasound-skull.svg" width="150" height="150" alt="Skull">
+                <p>BONE</p>
+             </section>
+
+             <section class="sonoIcon">
+                <h3 class="hidden">Gastric</h3>
+                <img src="images/ultrasound-gastric.svg" width="150" height="150" alt="Digestive System">
+                <p>GASTRIC</p>
+             </section>
+
+              <section class="sonoIcon">
+                <h3 class="hidden">Liver</h3>
+                <img src="images/ultrasound-liver.svg" width="150" height="150" alt="Liver">
+                <p>LIVER</p>
+             </section>
+     </div>
+
+<div class="wrapper3">
+       <h2 class="hidden">Ultrasound Icons</h2>
+
+            <section class="sonoIcon">
+                <h3 class="hidden">Baby</h3>
+                <img src="images/ultrasound-baby.svg" width="150" height="150" alt="Baby">
+                <p>BABY</p>
+             </section>
+
+             <section class="sonoIcon">
+                <h3 class="hidden">CPR</h3>
+                <img src="images/ultrasound-cpr.svg" width="150" height="150" alt="CPR">
+                <p>CPR</p>
+             </section>
+
+     </div>
+
+</section>
 
   <div class="wrapper">
     <!-- SVG graphic start -->
@@ -25,11 +122,24 @@
      <!-- SVG graphic end -->
   </div>
     <!-- end icons -->
-    <button class="icon-button">Click Me!</button>
-  </section>
+    
 
   <!-- put your JS script HERE!! -->
   <!-- scripts always go at the bottom, right before the closing body tag -->
-<script src="js/main.js"></script>
+ <footer id="mainFooter">
+            <nav id="footerNav">
+                <h2 class="hidden">Footer Navigation</h2>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about-us.html">ABOUT US</a></li>
+                   <li><a href="shop.html">ICON SETS</a></li>
+                   <li><a href="contact-us.html">CONTACT</a></li>
+                </ul>
+             </nav>      
+            <div id="copyRight"><p>© 2021 <span>Maria Lopera</span></p></div>
+        </footer>
+    </div>
+
+<script src="js/main.js"></script>    
 </body>
 </html>
