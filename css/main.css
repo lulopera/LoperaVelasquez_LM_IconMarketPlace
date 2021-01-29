@@ -261,6 +261,6 @@ a:hover, a:active
 }
 
 
-/*.sonoIcon { cursor: pointer; }
+.sonoIcon { cursor: pointer; }
 
-#heart:hover { fill: blue !important; }*/
+#heart:hover { fill: blue !important; }
